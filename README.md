@@ -22,3 +22,42 @@ A web-based platform designed to educate users about safe and responsible social
 ---
 
 ## Folder / File Structure
+Social_Media_Awareness/
+│
+├── app.py # Main web application
+├── risk_engine.py # Core logic to calculate risk
+├── data/ # JSON data of posts and profiles
+├── frontend/ # HTML/CSS/JS files for dashboard
+├── screenshots/ # Dashboard and engine screenshots
+│ ├── app.png
+│ ├── dashboard.png
+│ ├── index.png
+│ ├── posts_json.png
+│ ├── profile_json.png
+│ └── risk_engine.png
+└── README.md # This file
+
+
+---
+
+## Screenshots
+- `screenshots/app.png` – Main web app interface  
+- `screenshots/dashboard.png` – Interactive dashboard view  
+- `screenshots/index.png` – Home page layout  
+- `screenshots/posts_json.png` – Sample posts JSON data  
+- `screenshots/profile_json.png` – Sample profile JSON data  
+- `screenshots/risk_engine.png` – Risk calculation engine output  
+
+---
+
+## How to Run / Usage
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Social_Media_Awareness.git
+cd Social_Media_Awareness
+Install dependencies:
+pip install -r requirements.txt
+Run the application:
+python app.py
+Open your browser at http://localhost:8000
+Upload or load JSON data to visualize social media risks in the dashboard
